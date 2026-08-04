@@ -4,8 +4,8 @@
 name: my-atomic-desktop
 description: A rock-solid, ultra-simple custom atomic Fedora Silverblue image.
 
-base-image: ghcr.io/blue-build/base-images/fedora-silverblue
-image-version: 40
+base-image: ghcr.io/blue-build/base-images/silverblue
+image-version: latest
 
 modules:
   - type: files
