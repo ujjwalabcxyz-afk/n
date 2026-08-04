@@ -31,5 +31,5 @@ jobs:
         with:
           recipe: ${{ matrix.recipe }}
           registry_token: ${{ github.token }}
-          # This forces BlueBuild's internal runner script to bypass the key check entirely
-          cli_flags: "--no-sign"
+          # This tells the tool to skip looking for signing keys entirely
+          push: false
