@@ -1,7 +1,7 @@
 ---
 # yaml-language-server: $schema=https://blue-build.org
 
-name: n
+name: my-atomic-desktop
 description: A rock-solid, ultra-simple custom atomic Fedora Silverblue image.
 
 base-image: ghcr.io/ublue-os/silverblue-main
